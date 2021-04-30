@@ -149,6 +149,7 @@
 			end.innerHTML += '<br><button type="submit"  class = "bt-az" onClick="next()">Proximo Calculo </button> '
         }
 		function next(){
+window.location.reload();
 calc.style.display="none";
 calc.style.visibility="hidden";
 res.style.display="none";
